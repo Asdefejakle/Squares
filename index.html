@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <input type="text" element onkeyup="shapeMove">
+<head>
+  <canvas id="myCanvas" width="500" height="500"></canvas>
+  <script>
+    
+    let a = Math.random()*125+62.5;
+    let s = Math.random()*125+62.5;
+    let d = Math.random()*125+62.5;
+    let f = Math.random()*125+62.5;
+
+    let c = 1;
+    let v = 1;
+    let b = 1;
+    let n = 1;
+
+setInterval(draw,16.6666666666666666666666666666666666666666666666666666666666666666666666666667)
+
+  
+    console.log(10)
+    
+    const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+function draw(){
+
+ctx.strokeStyle='blue'
+ctx.beginPath();
+ctx.rect(a, s, d, f);
+ctx.stroke();
+ctx.beginPath();
+
+
+if (a>500){
+  a=Math.random()*500
+}
+if (s>500){
+  s=Math.random()*500
+}
+
+a=a+Math.random();
+s=s+Math.random();
+d=d+Math.random();
+f=f+Math.random();
+
+}
+  </script>
+  <title>COOL WEBSITE</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click me!</a>
+</head>
+  <body>
+    
+  <div class="page">
+
+<span style="color:goldenrod;font-style: oblique; font-size: xx-large;">Turner Vito Mazzanti</span> is the <span style="color:goldenrod;font-style: oblique; font-size: xx-large;">Greatest person</span> to ever exist.
+
+<span class="ball"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+
+
+
+    
+
+  <script src="../jquery/3.7.1/jquery.min.js" type="text/javascript">
+    console.log("hello")
+  </script>
+
+  </div>
+  </body>
+
+</html>
